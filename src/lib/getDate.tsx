@@ -12,8 +12,8 @@ export const getDate = () => {
         }
     }, [currentDate]);
 
-    const day = currentDate.getDay();
-    const month = currentDate.getMonth();
+    const day = currentDate.getDate();
+    const month = currentDate.getMonth() + 1;
     const year = currentDate.getFullYear();
     const hour = currentDate.getHours();
     const minute = currentDate.getMinutes();
